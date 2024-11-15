@@ -15,7 +15,7 @@ This app connects to the Binance WebSocket API to fetch real-time data on crypto
 
 ## Video Demo
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+[![Watch the video](https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.mp4)
 
 > Click the image above to watch a demo video of the app in action.
 
@@ -76,6 +76,9 @@ The `web_socket_channel` package enables real-time data streaming from Binance. 
 ### Pull-to-Refresh
 
 The `liquid_pull_to_refresh` package provides a refreshing mechanism with a liquid animation, allowing users to manually refresh the data.
+
+
+https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.mp4
 
 ## Usage
 
