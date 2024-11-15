@@ -1,29 +1,85 @@
+
 # sisyphus
 
-A new Flutter project: Sisyphus app built with the Flutter framework and Binance Websockets API
+A Flutter application that displays real-time cryptocurrency data, including candlestick charts and order book data, using the Binance WebSocket API. This project leverages various Flutter packages to create an interactive and visually appealing UI.
 
-## App Video
+## Overview
+
+This app connects to the Binance WebSocket API to fetch real-time data on cryptocurrency trading pairs, displaying it in candlestick charts and order book format. Users can also view and interact with other trading options.
+
+### Features
+- Real-time candlestick charts
+- Order book data updates in real-time
+- Interactive UI with pull-to-refresh and smooth animations
+- Clean and modular code structure using Riverpod for state management
+
+## Video Demo
+
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+
+> Click the image above to watch a demo video of the app in action.
+
+## Requirements
+
+- Flutter SDK version 3.0.0 or later
+- Binance API access for WebSocket data (no authentication required for public market data)
+
+## Getting Started
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/emjaycodes/sisyphus_roqqu-assessment.git
+   cd sisyphus_roqqu-assessment
+   ```
+
+2. **Install dependencies**:
+   Run the following command to install the necessary Flutter packages.
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**:
+   ```bash
+   flutter run
+   ```
+
+### Dependencies
+
+This project uses the following Flutter dependencies:
+
+| Dependency                | Version    | Description |
+|---------------------------|------------|-------------|
+| `candlesticks`            | ^2.1.0     | Provides candlestick charting widgets for displaying market data. |
+| `flutter_hooks`           | ^0.20.5    | Utilizes hooks for managing widget lifecycle and state. |
+| `flutter_svg`             | ^2.0.10+1  | Renders SVG images in the UI, used for iconography and illustrations. |
+| `hooks_riverpod`          | ^2.5.1     | State management solution that integrates with Flutter hooks. |
+| `http`                    | ^1.0.0     | For making HTTP requests if needed. |
+| `web_socket_channel`      | ^3.0.0     | Handles WebSocket connections to fetch real-time data from Binance. |
+| `gap`                     | ^3.0.1     | Utility for adding spacing between UI components. |
+| `intl`                    | ^0.19.0    | Internationalization support, used for date and number formatting. |
+| `liquid_pull_to_refresh`  | ^3.0.1     | Pull-to-refresh widget with a liquid animation effect. |
 
 
-https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/c83e991a-2c39-473d-ac31-26fd2c7bfbb2
+
+## Key Functionality
+
+### Candlestick Charts
+
+Using the `candlesticks` package, this app displays historical market data in a candlestick format. The chart is updated in real-time via the WebSocket connection.
+
+### Real-time Data with WebSocket
+
+The `web_socket_channel` package enables real-time data streaming from Binance. Data is parsed and processed to display in the order book and candlestick chart.
+
+### Pull-to-Refresh
+
+The `liquid_pull_to_refresh` package provides a refreshing mechanism with a liquid animation, allowing users to manually refresh the data.
+
+## Usage
+
+1. **Connect to WebSocket**: The app automatically establishes a WebSocket connection to fetch real-time candlestick and order book data for a specific cryptocurrency trading pair.
+2. **View Market Data**: Users can view the live candlestick chart, order book, and other market metrics.
 
 
-
-https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/88958085-bac7-4981-97d6-18ade33836ef
-
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 18 14 43](https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/172d74bf-8c80-4cd4-8733-60cc3d942668)
-
-
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 18 14 25](https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/85edf73b-ce69-4c5f-acc3-54eb4b65723c)
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 18 14 33](https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/30d5eb59-9584-4e43-9c05-33b1007879f3)
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 18 15 13](https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/dc10a14f-1111-4792-855d-5ed528308a1f)
-
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 18 15 16](https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/1fed4d14-2d33-43f7-bbb6-eb50069f9930)
-
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 18 15 25](https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/ff164e4c-55b8-4c5a-8ece-a0a4237fea7f)
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-06-17 at 18 15 31](https://github.com/Tymie18/sisyphus_roqqu/assets/112644884/81e551a4-89f1-46c6-925a-904f0f126c4d)
