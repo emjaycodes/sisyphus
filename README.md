@@ -78,11 +78,10 @@ The `web_socket_channel` package enables real-time data streaming from Binance. 
 The `liquid_pull_to_refresh` package provides a refreshing mechanism with a liquid animation, allowing users to manually refresh the data.
 
 
-https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.mp4
-
 ## Usage
 
 1. **Connect to WebSocket**: The app automatically establishes a WebSocket connection to fetch real-time candlestick and order book data for a specific cryptocurrency trading pair.
 2. **View Market Data**: Users can view the live candlestick chart, order book, and other market metrics.
 
+https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.mp4
 
