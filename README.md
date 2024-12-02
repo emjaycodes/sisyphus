@@ -17,7 +17,6 @@ This app connects to the Binance WebSocket API to fetch real-time data on crypto
 
 https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.gif
 
-> Click the image above to watch a demo video of the app in action.
 
 ## Requirements
 
@@ -83,5 +82,5 @@ The `liquid_pull_to_refresh` package provides a refreshing mechanism with a liqu
 1. **Connect to WebSocket**: The app automatically establishes a WebSocket connection to fetch real-time candlestick and order book data for a specific cryptocurrency trading pair.
 2. **View Market Data**: Users can view the live candlestick chart, order book, and other market metrics.
 
-https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.mp4
+https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.gif
 
