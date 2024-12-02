@@ -15,8 +15,7 @@ This app connects to the Binance WebSocket API to fetch real-time data on crypto
 
 ## Video Demo
 
-https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.gif
-
+![](https://github.com/emjaycodes/sisyphus_roqqu-assessment/blob/master/Record_2024-11-15-01-12-45.gif)
 
 ## Requirements
 
