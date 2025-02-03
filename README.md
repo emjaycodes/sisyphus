@@ -1,7 +1,7 @@
 
 # sisyphus
 
-A Flutter application that displays real-time cryptocurrency data, including candlestick charts and order book data, using the Binance WebSocket API. This project leverages various Flutter packages to create an interactive and visually appealing UI.
+This was a test for a job application,  it's application that displays real-time cryptocurrency data, including candlestick charts and order book data, using the Binance WebSocket API. This project leverages various Flutter packages to create an interactive and visually appealing UI.
 
 ## Overview
 
